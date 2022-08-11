@@ -4,6 +4,6 @@
 
 Netlify
 
-[Project-1 live-link](https://live-class-project-9-rj.netlify.app/)
+[Project-9 live-link](https://live-class-project-9-rj.netlify.app/)
 
 ![Badge](https://img.shields.io/badge/Project--9-Live-brightgreen)
