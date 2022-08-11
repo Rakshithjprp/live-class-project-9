@@ -1,0 +1,383 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;0,900;1,700&family=Open+Sans:wght@400;401&family=Poppins:wght@600&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;0,900;1,700&family=Open+Sans:wght@400;401&family=Poppins:wght@600&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Montserrat:ital,wght@0,200;0,400;0,600;1,700&family=Open+Sans:wght@400;401&family=Poppins:wght@600&family=Roboto:wght@500&family=Sansita+Swashed:wght@500&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  margin: 0px auto !important;
+  background-color: #F8F8FA;
+}
+header{
+  background-color: #4618FE;
+  height: 550px;
+}
+
+nav{
+  margin-top: 0px;
+  margin-right: 100px;
+  float: right;
+
+
+}
+.nav-item{
+  margin-top: 30px;
+  margin-left: 40px;
+  
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+
+}
+
+.nav-item-active{
+  margin-top: 30px;
+  margin-left: 40px;
+  
+  font-family: "Poppins", sans-serif;
+  color: #4618FE;
+  background-color: #ffffff;
+  padding: 0.3em 0.5em;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+.logo{
+
+ 
+ margin: 40px;
+}
+
+
+.header-text{
+  float: left;
+  margin-left: 40px;
+}
+
+.header-text>h2{
+
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: 0px;
+
+}
+
+.header-text>p{
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  margin-top: -30px;
+}
+
+.header-image{
+  float: right;
+  margin-top: -40px;
+  width: 800px;
+  height: 600px;
+
+}
+
+.companies{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.company-items{
+  text-decoration: none;
+  font-family: 'Mouse Memoirs';
+  color: #000000;
+  font-size: 38px;
+  margin-left: 70px;
+  font-weight: bold;
+  
+
+}
+
+.api{
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.api-heading{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.cards{
+  display: flex;
+  margin-right: 60px;
+  margin-top: 30px;
+}
+
+.card-active{
+  margin-right: 60px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-head-active{
+  color: #5A31FC;
+}
+
+.card{
+  margin-right: 60px;
+  padding: 20px;
+}
+
+.blog-heading{
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.blog-heading>h1{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.blog-cards{
+  display: flex;
+  margin-left: 120px;
+
+}
+
+.blog-card{
+  margin-right: 200px;
+  display: flex;
+  background-color: #ffffff;
+  
+}
+
+.blog-content{
+   margin-left: 40px;
+
+
+}
+
+.blog-content>h6{
+  font-family: Montserrat;
+  color: #5A31FC;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+
+}
+
+.blog-content>h3{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: -30px;
+
+}
+
+.blog-content>small{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 16px;
+ 
+}
+
+
+
+.blog-bottom{
+  position: relative;
+  top: 260px;
+  left: -180px;
+ 
+    
+}
+
+.blog-author{
+  position: relative;
+  top: 132px;
+  left: -85px;
+  
+  
+}
+
+.faq-section{
+
+  background-color: #E9EDFF;
+  display: flex;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.faq-content{
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.faq-image{
+  position: relative;
+  top: 0px;
+  left: 180px;
+ 
+  float: left;
+  
+}
+
+.faq-content>h2{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 38px;
+  font-weight: 700;
+ 
+}
+.faq-content>h3{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 50px;
+ 
+}
+
+.faq-content>h4{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -10px;
+ 
+}
+
+.btn{
+  margin-top: 30px;
+  background-color: #5A31FC;
+  padding: 1em 2em;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.download-section{
+  display: flex;
+  height: 300px;
+}
+
+.download-content{
+  margin-top: 80px;
+  margin-left: 120px;
+  margin-right:600px;
+  width: 500px;
+}
+
+.download-content>h1{
+  font-family: Montserrat;
+  color: #000000;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.download-content>span{
+  font-family: Montserrat;
+  color: #000000;
+  
+  font-weight: 200;
+}
+
+.download-email{
+  margin-top: 104px;
+  margin-left: 100px;
+}
+
+.download-email>form>input{
+
+  padding: 20px 0px 20px 30px;
+  width: 600px;
+  background-color: #E9EDFF;
+  color: #000000;
+  border-radius: 32px;
+  border: none;
+  
+
+}
+
+.download-email>form>button{
+
+  background-color: #5A31FC;
+  padding: 18px 30px 18px 30px;
+  text-align: center;
+  border-radius: 32px;
+  border: none;
+  color: #ffffff;
+  width: 200px;
+  position: relative;
+  top: -58px;
+  left: 428px;
+
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+
+
+}
+
+.footer-section{
+  background-color: #4618FE;
+  display: flex;
+  height: 300px;
+}
+
+.footer-left{
+  margin-top: 100px;
+  margin-left: 120px;
+
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  margin-left: -50px;
+}
+
+.list-items{
+  margin-right: 20px;
+  color: #ffffff;
+  margin-left: 20px;
+  
+}
+
+.border{
+  border-left: 1px solid #ffffff;
+  padding-left: 30px;
+}
+
+
+
+.footer-right{
+ margin-top: 100px;
+margin-left: 800px;
+}
+
+.footer-logos{
+  margin-left: 60px;
+  float: right;
+}
+
+.logos-list{
+  display: flex;
+  list-style: none;
+  float:right;
+  margin-right: -25px;
+  margin-top: 50px;
+}
+
+
